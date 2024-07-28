@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+AR:wght@100..400&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+AR:wght@100..400&display=swap" rel="stylesheet">
+        <title>Document</title>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="#home" id="hm">Home</a>
+        <a href="#news" id="ab">About</a>
+        <a href="#contact" id="proj">Projects</a>
+        <button class="b1" value="contact" id="contact">contact</button>
+    </div>
+    <br>
+    <div id="home">
+        <h2>
+            <p>Hi, I'm Ashish,a Skilled and Passionate Developer with a Django Heart.</p>
+        </h2>
+        <p class="stack">I am fullstack web developer</p>
+        <h1>
+            <p>As someone who lives and breathes code, I thrive on turning ideas into elegant solutions. With 1 years of
+                experience under my belt,<br> I’ve danced with databases, wrestled with APIs, and crafted pixel-perfect
+                UIs</p>
+        </h1>
+        <button class="b2" value="contact">Resume <img src="Assets/download.png"></button>
+    </div>
+    <div>
+        <marquee>
+            <img class="slide-img" src="Assets/html-5.png" alt="react">
+            <img class="slide-img" src="Assets/css-3.png" alt="react">
+            <img class="slide-img" src="Assets/react.png" alt="react">
+            <img class="slide-img" src="Assets/python.png" alt="react">
+            <img class="slide-img" class="slide-img" src="Assets/django.png" alt="react">
+            <img class="slide-img" src="Assets/mysql.png" alt="react">
+        </marquee>
+    </div>
+    <div id="about">
+        <span class="ab-text">
+            <p>About</p>
+        </span>
+        <table border="1">
+            <tr>
+                <td>
+                    <span class="about">
+                        <p class="about-para">Hey there! I’m Ashish More, a passionate developer hailing from the
+                            vibrant city of Kalyan. Here’s a
+                            glimpse into my journey:</p>
+                        <p class="about-para">🎓 I hold a Bachelor’s degree in Information Technology from Datta Meghe
+                            College of Engineering. Those
+                            college days were a mix of caffeine-fueled coding sessions, late-night debugging, and the
+                            thrill of
+                            building my first web projects.</p>
+                        <p class="about-para">💼 Currently, I’m part of the awesome team at Tata Trent. We’re crafting
+                            digital experiences, solving
+                            real-world problems, and pushing the boundaries of what’s possible. My role? Well, let’s
+                            just say I’m
+                            the one who sprinkles a bit of Python magic into our codebase.</p>
+                        <p class="about-para">🚀 When I’m not typing away at my keyboard, you’ll find me exploring new
+                            tech trends, sipping chai, and
+                            occasionally attempting to play the guitar (emphasis on “attempting”).</p>
+                    </span>
+                    </th>
+                <td>
+                    <span class="about">
+                        <p>My Skills</p>
+                        <span class="skill">HTML</span>
+                        <span class="skill">CSS</span>
+                        <span class="skill">DJANGO</span>
+                        <span class="skill">JAVASCRIPT</span>
+                        <span class="skill">Reactjs</span>
+                        <span class="skill">PYTHON</span>
+                        <span class="skill">GIT</span>
+                        <span class="skill">GIT HUB</span>
+                    </span>
+                    </th>
+            </tr>
+        </table>
+    </div>
+        <div>
+            <span id="projects" class="ab-text">
+                <p>Projects</p>
+            </span>
+
+            <div class="projects">
+                <table>
+                    <tr>
+                        <td>
+                            <span><img class="project-img" src="Assets/proj1.png" alt="project-1"></span>
+                        </td>
+                        <td>
+                            <span>
+                                <p>Currency Converter: A Handy Tool for Global Transactions</p>
+                                <p class="about-para">
+                                    My currency converter project is all about simplifying cross-border transactions.
+                                    Users input an amount, select their source and target currencies, and—like magic—the
+                                    converted amount appears. Built with JavaScript and powered by real-time exchange
+                                    rates from the ExchangeRate API, this tool is a traveler’s best friend. Check out
+                                    the live demo) and explore the code on my GitHub. Happy converting! 🌎💰</p>
+                                <button class="b2" value="contact"
+                                    onclick="window.location.href = 'https://github.com/Ashish-More-Code/Currencyapp-api.git';">GitHub</button>
+
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <br>
+        <div id="contacts">
+            <span class="ab-text">
+                <p>Get In Touch</p>
+            </span>
+            <p>I'm actively looking for any new opportunities, my inbox is always open. Whether you have a question or
+                want to hire me or just want to say hello, I'll try my best to get back to you!</p>
+            <div class="container">
+                <span class="ab-text">
+                    <p>Contact Us</p>
+                </span>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Full Name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="email@example.com" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" placeholder="Hello Ashish," required></textarea>
+
+                    <button type="submit" class="b2">Send</button>
+                </form>
+            </div>
+        </div>
+        <br>
+        <script src="home.js"></script>
+</body>
+
+</html>
